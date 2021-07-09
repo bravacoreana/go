@@ -6,7 +6,6 @@
 # 1.1 packages and imports
 
 - fmt: formatting 을 위한 패키지
-
 - 패키지가 어떻게 동작하나
 - 왜 패키지 함수는 대문자로 시작하나
   - export 하고 싶으면 함수를 대문자로 시작해주면 됨
