@@ -2,15 +2,10 @@ package main
 
 import "fmt"
 
-func superAdd(numbers ...int) int {
-	total :=0
-	for _, number := range numbers {
-		total += number
-	}
-	return total
+func main() {
+	a := 2
+	b := a
+	a = 10
+	fmt.Println(a,b)
 }
 
-func main() {
-	result := superAdd(1,2,3,4,5,6)
-	fmt.Println(result)
-}
