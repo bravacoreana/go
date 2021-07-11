@@ -1,11 +1,20 @@
-# 1.0 main package
+## 한눈에 보기
 
-- `main.go` 파일명은 프로젝트를 **컴파일** 하려면 반드시 가지고 있어야 함. 그게 아니라면 바꿔도 상관 x
-- 왜냐하면 `main.go` 가 entry point 임 -> 컴파일러가 가장 먼저 찾는 패키지 이름
+[파트 1](notes/part1/README.md)
+[파트 2](notes/part2/README.md)
 
-# 1.1 packages and imports
+## 챕터별
 
-- fmt: formatting 을 위한 패키지
-- 패키지가 어떻게 동작하나
-- 왜 패키지 함수는 대문자로 시작하나
-  - export 하고 싶으면 함수를 대문자로 시작해주면 됨
+| chapter |          title          |                         Link                         |
+| :-----: | :---------------------: | :--------------------------------------------------: |
+|   1.0   |      main package       |      [:link:](notes/part1/1.0.main-package.md)       |
+|   1.1   |  packages and imports   |  [:link:](notes/part1/1.1.packages-and-imports.md)   |
+|   1.2   | variables and constants | [:link:](notes/part1/1.2.variables-and-constants.md) |
+|   1.4   |        functions        |        [:link:](notes/part1/1.4.functions.md)        |
+|   1.5   |   for, range, ...args   |     [:link:](notes/part1/1.5-for&range&args.md)      |
+|   1.6   |     if with a twist     |     [:link:](notes/part1/1.6.if-with-a-twist.md)     |
+|   1.7   |         switch          |         [:link:](notes/part1/1.7.switch.md)          |
+|   1.8   |        pointers         |        [:link:](notes/part1/1.8.pointers.md)         |
+|   1.9   |    arrays and slices    |    [:link:](notes/part1/1.9.arrays-and-slices.md)    |
+|  1.10   |          maps           |          [:link:](notes/part1/1.10.maps.md)          |
+|  1.11   |         structs         |        [:link:](notes/part1/1.11.structs.md)         |
