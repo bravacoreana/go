@@ -52,5 +52,5 @@ func (a Account) GetOwner() string {
 }
 
 func (a Account) String() string {
-	return fmt.Sprint(a.GetOwner(), "'s account.\nHas: ", a.balance)
+	return fmt.Sprint(a.GetOwner(), "'s account.\nHas: ", a.Balance())
 }
